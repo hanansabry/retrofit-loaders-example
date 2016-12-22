@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 25
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         applicationId "it.rciovati.testingretrofit"
         minSdkVersion 14
-        targetSdkVersion 20
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
