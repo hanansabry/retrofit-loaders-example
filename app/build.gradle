@@ -1,20 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 25
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         applicationId "it.rciovati.testingretrofit"
         minSdkVersion 14
-        targetSdkVersion 20
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
 }
 
 dependencies {
-    compile 'com.squareup.retrofit:retrofit:1.6.+'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.squareup.dagger:dagger:1.2.+'
     provided 'com.squareup.dagger:dagger-compiler:1.2.+'
 }
